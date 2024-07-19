@@ -1,0 +1,7 @@
+[mysqld]
+# disable storing IP addresses and hostnames
+skip-host-cache
+# we must configure user accounts uing IP adresses instead of hostnames
+skip-name-resolve
+# listen to all interfaces
+bind-address=0.0.0.0
